@@ -49,3 +49,7 @@ a {
 .data {
   padding: 5px;
 }
+
+.scroll {
+  overflow-y: scroll;
+}

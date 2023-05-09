@@ -37,8 +37,9 @@ const Navbar = () => {
       direction={"row"}
       justifyContent={"space-between"}
       alignItems={"center"}
+      sx={{background: '#f5f6fa', paddingLeft: "20px", paddingRight: "20px", paddingTop: "20px", zIndex: '10'}}
     >
-      <Typography variant="h4" fontWeight={"bold"}>
+      <Typography variant="h5" fontWeight={"bold"}>
         Dashboard
       </Typography>
 
@@ -46,7 +47,7 @@ const Navbar = () => {
       <Badge sx={{color: '#af96e5', padding: '0 6px'}} showZero>
         <Mail />
       </Badge>
-      <IconButton size="large" sx={{color: '#af96e5', margin: '0 16px'}}>
+      <IconButton size="large" sx={{color: '#af96e5', margin: '0 6px'}}>
         <Search/>
       </IconButton>
 
@@ -62,7 +63,6 @@ const Navbar = () => {
           />
         </StyledBadge>
       </IconButton>
-      <Typography variant="h7" fontWeight={'bold'}>Oliver Reed</Typography>
       </div>
     </Stack>
   );

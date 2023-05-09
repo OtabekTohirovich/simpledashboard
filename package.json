@@ -16,6 +16,7 @@
     "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
     "recharts": "^2.6.0",
+    "rsuite": "^5.33.0",
     "styled-components": "^5.3.10",
     "web-vitals": "^2.1.4"
   },
