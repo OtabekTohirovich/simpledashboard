@@ -75,7 +75,7 @@ const Main = () => {
         sx={{ height: "90.1vh", width: "100%", background: "#f5f6fa"  , padding: "0 20px"}}
         direction={"column"}
       >
-        <Grid container spacing={1} padding={2}>
+        <Grid container spacing={1}>
           <Grid item xs={6}>
             <Grid container spacing={2}>
               <Grid item xs={6}>
